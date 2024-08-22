@@ -1,0 +1,57 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block_cards {
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  max-width: 300px;
+  background-color: aqua; 
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p {
+  margin-top: 10px;
+  
+}
+
+button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+     background-color: rgb(181, 178, 178);
+} */
+
+
+
+.for_btns {
+  display: flex;
+  gap: 3px;
+}
+
+.for_btns button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
