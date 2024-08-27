@@ -7,12 +7,18 @@ const Counter = () => {
   function plus() {
     setNumber(number + 1);
   }
+  
   function minus() {
     setNumber(number - 1);
   }
+
   function randomPlus() {
-    let randomNumber = Math.floor(Math.random() * 10);
-    setNumber(number + randomNumber);
+    let randomNumber = Math.round( number / 2 + number);
+    setNumber(randomNumber);
+  }
+
+  function clearNumber() {
+    setNumber(0)
   }
 
   return (
@@ -23,6 +29,7 @@ const Counter = () => {
           <Button btnText={"+"} btnOnClickValue={plus} />
           <Button btnText={"-"} btnOnClickValue={minus} />
           <Button btnText={"?"} btnOnClickValue={randomPlus} />
+          <Button btnText={"Delete"} btnOnClickValue={clearNumber} />
         </div>
       </div>
     </>
